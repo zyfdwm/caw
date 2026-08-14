@@ -11,7 +11,7 @@ export default function Page() {
         <span className="font-sans uppercase tracking-widest text-xs text-nude font-semibold mb-4">
           Chariea Aviya Wellness
         </span>
-        <h1 className="text-4xl md:text-5xl font-heading font-light tracking-wide mb-6 leading-tight text-dark">
+        <h1 className="text-4xl md:text-5xl font-heading font-light tracking-wide mb-6 leading-tight text-[#803813]">
           12-Week Transformation Program
         </h1>
         <p className="text-xl font-body italic text-dark/80 max-w-2xl mx-auto mb-8 leading-relaxed">

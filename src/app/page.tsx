@@ -191,10 +191,10 @@ function HomepageContent() {
       <section className="bg-white-pure py-20 md:py-28 px-6 border-b border-nude/10">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <span className="font-sans text-xs uppercase tracking-widest text-nude font-bold block mb-3">
+            <span className="font-sans text-xs uppercase tracking-widest text-[#803813] font-bold block mb-3">
               Deep Transformational Journey
             </span>
-            <h2 className="text-3xl md:text-5xl font-heading font-medium text-dark mb-6">
+            <h2 className="text-3xl md:text-5xl font-heading font-medium text-[#803813] mb-6">
               The 12-Week Transformation
             </h2>
             <p className="font-body text-lg md:text-xl italic text-dark/80 max-w-3xl mx-auto leading-relaxed">
@@ -205,13 +205,13 @@ function HomepageContent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
             {/* Experience Box */}
             <div className="bg-cream/40 border border-nude/20 rounded-3xl p-8 lg:p-10 shadow-sm">
-              <h3 className="font-heading text-xl md:text-2xl font-medium text-nude mb-6">
+              <h3 className="font-heading text-xl md:text-2xl font-medium text-[#803813] mb-6">
                 What You’ll Experience
               </h3>
               <ul className="space-y-4">
                 {transformExperiences.map((exp, idx) => (
                   <li key={idx} className="flex items-start gap-3">
-                    <span className="mt-1 flex items-center justify-center w-5 h-5 rounded-full bg-nude/20 text-nude shrink-0">
+                    <span className="mt-1 flex items-center justify-center w-5 h-5 rounded-full bg-nude/20 text-[#803813] shrink-0">
                       <CheckCircle className="w-3.5 h-3.5" />
                     </span>
                     <span className="font-body text-base text-dark/80 leading-relaxed">
@@ -224,7 +224,7 @@ function HomepageContent() {
 
             {/* Target Audience Box */}
             <div className="bg-cream/40 border border-nude/20 rounded-3xl p-8 lg:p-10 shadow-sm">
-              <h3 className="font-heading text-xl md:text-2xl font-medium text-nude mb-6">
+              <h3 className="font-heading text-xl md:text-2xl font-medium text-[#803813] mb-6">
                 Who Is This For?
               </h3>
               <ul className="space-y-4">
