@@ -174,7 +174,7 @@ function HomepageContent() {
           <p className="font-body text-lg sm:text-xl md:text-2xl italic text-dark/90 leading-relaxed mb-6 max-w-lg">
             "Transform your life with holistic healing, subconscious work, and energy alignment."
           </p>
-          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-nude font-normal tracking-wide leading-tight mb-8">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#884626] font-normal tracking-wide leading-tight mb-8">
             Beyond the Surface,<br />Nourishing Your Soul
           </h1>
           <button
