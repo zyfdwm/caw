@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FFF2EB;
+  --color-nude: #D4B499;
+  --color-dark: #3D2B1F;
+  --color-white-pure: #FFFFFF;
+  
+  --font-heading: var(--font-playfair), Playfair Display, Georgia, serif;
+  --font-body: var(--font-garamond), EB Garamond, Georgia, serif;
+  --font-sans: var(--font-montserrat), Montserrat, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-dark);
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+  
+  button, input, select, textarea, nav {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom visual micro-animations and scroll behavior */
+.luxury-transition {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #e3cbb8 0%, #d4b499 50%, #b89375 100%);
+}
+
+.cream-gradient {
+  background: linear-gradient(180deg, #FFFFFF 0%, #FFF2EB 100%);
+}
+
+/* Custom scrollbar to match the warm color scheme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF2EB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4B499;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b89375;
+}
+
+/* Warm selection highlight */
+::selection {
+  background-color: #D4B49940;
+  color: #3D2B1F;
+}
+
+/* Account for fixed navbar when scrolling to anchors */
+section {
+  scroll-margin-top: 5rem;
+}
+
+/* Smooth focus ring for accessibility */
+*:focus-visible {
+  outline: 2px solid #D4B499;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
