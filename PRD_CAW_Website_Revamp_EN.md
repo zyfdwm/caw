@@ -39,12 +39,12 @@ Chariea Aviya Wellness (CAW) is a holistic healing brand run by Chariea — a hy
 ### 3.1 Color Palette
 | Token | Hex | Usage |
 |---|---|---|
-| `--color-cream` | `#fdf3ec` | Main background, light sections |
-| `--color-nude` | `#884626` | Accent, buttons, borders, hover states |
-| `--color-dark` (additional, to be defined) | *suggested espresso/dark brown ~`#3D2B1F`* | Body text over cream, for sufficient contrast (AA) |
+| `--color-nude` / `--color-button` | `#d4b093` | Buttons, accents, borders, hover states |
+| `--color-accent` | `#884626` | Dark warm brown for text accents and headings |
+| `--color-dark` | `#3D2B1F` | Primary body text |
 | `--color-white` | `#FFFFFF` | Card backgrounds, alternating sections |
 
-> ⚠️ Note: the 2 colors provided (`#fdf3ec`, `#884626`) are light & mid-tone — for main text, it's recommended to add one darker color (brown/espresso) to keep text contrast accessible (WCAG AA). Happy to help generate additional shades from these two colors if needed.
+> ⚠️ Note: Buttons use `#d4b093` for a soft warm tone, while text accents use `#884626` for readable contrast.
 
 ### 3.2 Typography
 | Font | Role | Example Usage |

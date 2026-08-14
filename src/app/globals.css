@@ -2,7 +2,9 @@
 
 @theme {
   --color-cream: #fdf3ec;
-  --color-nude: #884626;
+  --color-nude: #d4b093;
+  --color-button: #d4b093;
+  --color-accent: #884626;
   --color-dark: #3D2B1F;
   --color-white-pure: #FFFFFF;
 
@@ -42,7 +44,7 @@
 }
 
 .gold-gradient {
-  background: linear-gradient(135deg, #e3cbb8 0%, #884626 50%, #b89375 100%);
+  background: linear-gradient(135deg, #e3cbb8 0%, #d4b093 50%, #b89375 100%);
 }
 
 .cream-gradient {
@@ -59,17 +61,17 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #884626;
+  background: #d4b093;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #6e371d;
+  background: #b89375;
 }
 
 /* Warm selection highlight */
 ::selection {
-  background-color: #88462640;
+  background-color: #d4b09340;
   color: #3D2B1F;
 }
 
