@@ -168,13 +168,13 @@ function HomepageContent() {
 
         {/* Right: Intro Text */}
         <div className="flex-1 flex flex-col justify-center items-center px-6 py-12 sm:px-8 sm:py-16 md:p-16 lg:p-24 text-center md:text-left md:items-start bg-cream">
-          <span className="font-sans text-l uppercase tracking-[0.25em] text-nude font-bold mb-4">
+          <span className="font-sans text-l uppercase tracking-[0.25em] text-[#803813] font-bold mb-4">
             Chariea Aviya Wellness
           </span>
           <p className="font-body text-lg sm:text-xl md:text-2xl italic text-dark/90 leading-relaxed mb-6 max-w-lg">
             "Transform your life with holistic healing, subconscious work, and energy alignment."
           </p>
-          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#884626] font-normal tracking-wide leading-tight mb-8">
+          <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-[#803813] font-normal tracking-wide leading-tight mb-8">
             Beyond the Surface,<br />Nourishing Your Soul
           </h1>
           <button
@@ -248,10 +248,10 @@ function HomepageContent() {
       <section className="bg-cream/25 py-20 md:py-28 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <span className="font-sans text-xs uppercase tracking-widest text-nude font-bold block mb-3">
+            <span className="font-sans text-xs uppercase tracking-widest text-[#803813] font-bold block mb-3">
               Comprehensive Support
             </span>
-            <h2 className="text-3xl md:text-5xl font-heading font-medium text-dark mb-4">
+            <h2 className="text-3xl md:text-5xl font-heading font-medium text-[#803813] mb-4">
               What’s Included
             </h2>
             <p className="font-body text-base italic text-dark/70">
@@ -263,17 +263,17 @@ function HomepageContent() {
             {/* Left: Featured Focus Card */}
             <div className="lg:col-span-1 bg-white-pure border border-nude/15 rounded-2xl p-6 lg:p-8 shadow-sm flex flex-col justify-between">
               <div>
-                <span className="font-sans text-[10px] uppercase tracking-widest font-bold text-nude block mb-3">
+                <span className="font-sans text-[10px] uppercase tracking-widest font-bold text-[#803813] block mb-3">
                   Core Modality
                 </span>
-                <h3 className="font-sans text-sm sm:text-base uppercase tracking-wider font-semibold text-nude mb-4">
+                <h3 className="font-sans text-sm sm:text-base uppercase tracking-wider font-semibold text-[#803813] mb-4">
                   {whatsIncluded[0].title}
                 </h3>
                 <p className="font-body text-base text-dark/90 italic leading-relaxed">
                   {whatsIncluded[0].desc}
                 </p>
               </div>
-              <div className="mt-8 pt-4 border-t border-nude/15 font-sans text-[11px] uppercase tracking-wider text-nude/80 font-medium">
+              <div className="mt-8 pt-4 border-t border-nude/15 font-sans text-[11px] uppercase tracking-wider text-[#803813]/80 font-medium">
                 Personalized & Multidimensional
               </div>
             </div>
@@ -286,7 +286,7 @@ function HomepageContent() {
                   className="bg-white-pure border border-nude/15 rounded-2xl p-6 shadow-sm flex flex-col justify-between"
                 >
                   <div>
-                    <h3 className="font-sans text-xs sm:text-sm uppercase tracking-wider font-semibold text-nude mb-3">
+                    <h3 className="font-sans text-xs sm:text-sm uppercase tracking-wider font-semibold text-[#803813] mb-3">
                       {item.title}
                     </h3>
                     <p className="font-body text-sm sm:text-base text-dark/85 italic leading-relaxed">
@@ -321,14 +321,14 @@ function HomepageContent() {
 
             {/* Right bio text column */}
             <div className="flex-1">
-              <span className="font-sans text-xs uppercase tracking-widest text-nude font-bold block mb-3">
+              <span className="font-sans text-xs uppercase tracking-widest text-[#803813] font-bold block mb-3">
                 Your Facilitator
               </span>
-              <h2 className="text-4xl md:text-5xl font-heading font-medium text-dark mb-6 leading-tight">
+              <h2 className="text-4xl md:text-5xl font-heading font-medium text-[#803813] mb-6 leading-tight">
                 Meet Chariea
               </h2>
               <p className="font-body text-base leading-relaxed text-dark/95 mb-6">
-                I am a <strong className="font-semibold text-nude">hypnotherapist, kinesiologist, sound therapist, and Family Constellation facilitator</strong> based in Perth, Western Australia, specializing in holistic healing and transformation.
+                I am a <strong className="font-semibold text-[#803813]">hypnotherapist, kinesiologist, sound therapist, and Family Constellation facilitator</strong> based in Perth, Western Australia, specializing in holistic healing and transformation.
               </p>
               <p className="font-body text-base leading-relaxed text-dark/95 mb-8">
                 My unique approach addresses root causes of emotional patterns and subconscious blocks, helping clients to:
@@ -343,10 +343,10 @@ function HomepageContent() {
                   { title: "Reconnect with Body", desc: "Deepening your somatic connection and listening to your body's innate wisdom." }
                 ].map((item, idx) => (
                   <div key={idx} className="bg-white-pure/80 border border-nude/15 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all duration-300 h-full flex flex-col">
-                    <span className="font-sans text-[10px] uppercase tracking-widest text-nude font-bold block mb-1">
+                    <span className="font-sans text-[10px] uppercase tracking-widest text-[#803813] font-bold block mb-1">
                       Pillar {idx + 1}
                     </span>
-                    <h4 className="font-heading text-base font-medium text-dark mb-1">
+                    <h4 className="font-heading text-base font-medium text-[#803813] mb-1">
                       {item.title}
                     </h4>
                     <p className="font-body text-sm text-dark/80 leading-relaxed">
@@ -365,11 +365,11 @@ function HomepageContent() {
           {/* Bottom: Certifications & Training (Full Width Spacious 3-Column Grid) */}
           <div className="mt-16 pt-12 border-t border-nude/20">
             <div className="text-center max-w-2xl mx-auto mb-10">
-              <span className="font-sans text-xs uppercase tracking-widest text-nude font-bold block mb-2">
+              <span className="font-sans text-xs uppercase tracking-widest text-[#803813] font-bold block mb-2">
                 Qualifications & Credentials
               </span>
-              <h3 className="font-heading text-2xl md:text-3xl font-medium text-dark flex items-center justify-center gap-2.5">
-                <Award className="w-6 h-6 text-nude" />
+              <h3 className="font-heading text-2xl md:text-3xl font-medium text-[#803813] flex items-center justify-center gap-2.5">
+                <Award className="w-6 h-6 text-[#803813]" />
                 Certifications & Training
               </h3>
             </div>
@@ -380,9 +380,9 @@ function HomepageContent() {
                   key={idx}
                   className="flex gap-3.5 items-start bg-white-pure/70 hover:bg-white-pure border border-nude/15 rounded-xl p-4 shadow-sm hover:shadow-md transition-all duration-300"
                 >
-                  <span className="w-2 h-2 rounded-full bg-nude mt-2 shrink-0" />
+                  <span className="w-2 h-2 rounded-full bg-[#803813] mt-2 shrink-0" />
                   <div className="flex flex-col">
-                    <span className="font-sans text-[10px] uppercase tracking-widest text-nude font-bold leading-none mb-1.5">
+                    <span className="font-sans text-[10px] uppercase tracking-widest text-[#803813] font-bold leading-none mb-1.5">
                       {cert.category}
                     </span>
                     <span className="font-body text-sm text-dark/90 leading-relaxed font-medium">
@@ -400,10 +400,10 @@ function HomepageContent() {
       <section className="bg-white-pure py-20 md:py-28 px-6">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
-            <span className="font-sans text-xs uppercase tracking-widest text-nude font-bold block mb-3">
+            <span className="font-sans text-xs uppercase tracking-widest text-[#803813] font-bold block mb-3">
               An Integrative Method
             </span>
-            <h2 className="text-3xl md:text-5xl font-heading font-medium text-dark mb-6">
+            <h2 className="text-3xl md:text-5xl font-heading font-medium text-[#803813] mb-6">
               Transform From Within
             </h2>
             <p className="font-body text-lg md:text-xl italic text-dark/80 max-w-3xl mx-auto leading-relaxed mb-6">
@@ -420,16 +420,16 @@ function HomepageContent() {
           </div>
 
           {/* 3-Column Mind Body Energy */}
-          <h3 className="text-center font-sans text-xs sm:text-sm uppercase tracking-widest font-semibold text-nude mb-8">
+          <h3 className="text-center font-sans text-xs sm:text-sm uppercase tracking-widest font-semibold text-[#803813] mb-8">
             My Approach to Healing
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
             {/* Mind */}
             <div className="bg-cream/25 border border-nude/15 rounded-2xl p-8 text-center shadow-sm hover:shadow-md transition-all duration-300">
-              <div className="w-12 h-12 bg-nude/20 rounded-full flex items-center justify-center mx-auto mb-5 text-nude">
+              <div className="w-12 h-12 bg-[#803813]/20 rounded-full flex items-center justify-center mx-auto mb-5 text-[#803813]">
                 <Brain className="w-6 h-6" />
               </div>
-              <h4 className="font-sans text-xs sm:text-sm uppercase tracking-wider font-semibold text-dark mb-3">
+              <h4 className="font-sans text-xs sm:text-sm uppercase tracking-wider font-semibold text-[#803813] mb-3">
                 Mind
               </h4>
               <p className="font-body text-sm sm:text-base text-dark/85 leading-relaxed">
@@ -439,10 +439,10 @@ function HomepageContent() {
 
             {/* Body */}
             <div className="bg-cream/25 border border-nude/15 rounded-2xl p-8 text-center shadow-sm hover:shadow-md transition-all duration-300">
-              <div className="w-12 h-12 bg-nude/20 rounded-full flex items-center justify-center mx-auto mb-5 text-nude">
+              <div className="w-12 h-12 bg-[#803813]/20 rounded-full flex items-center justify-center mx-auto mb-5 text-[#803813]">
                 <Heart className="w-6 h-6" />
               </div>
-              <h4 className="font-sans text-xs sm:text-sm uppercase tracking-wider font-semibold text-dark mb-3">
+              <h4 className="font-sans text-xs sm:text-sm uppercase tracking-wider font-semibold text-[#803813] mb-3">
                 Body
               </h4>
               <p className="font-body text-sm sm:text-base text-dark/85 leading-relaxed">
@@ -452,10 +452,10 @@ function HomepageContent() {
 
             {/* Energy */}
             <div className="bg-cream/25 border border-nude/15 rounded-2xl p-8 text-center shadow-sm hover:shadow-md transition-all duration-300">
-              <div className="w-12 h-12 bg-nude/20 rounded-full flex items-center justify-center mx-auto mb-5 text-nude">
+              <div className="w-12 h-12 bg-[#803813]/20 rounded-full flex items-center justify-center mx-auto mb-5 text-[#803813]">
                 <Activity className="w-6 h-6" />
               </div>
-              <h4 className="font-sans text-xs sm:text-sm uppercase tracking-wider font-semibold text-dark mb-3">
+              <h4 className="font-sans text-xs sm:text-sm uppercase tracking-wider font-semibold text-[#803813] mb-3">
                 Energy
               </h4>
               <p className="font-body text-sm sm:text-base text-dark/85 leading-relaxed">
@@ -470,10 +470,10 @@ function HomepageContent() {
       <section className="bg-cream/20 py-16 px-6 border-y border-nude/10">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-10">
-            <span className="font-sans text-xs uppercase tracking-widest text-nude font-bold block mb-2">
+            <span className="font-sans text-xs uppercase tracking-widest text-[#803813] font-bold block mb-2">
               Credibility & Standards
             </span>
-            <h2 className="text-2xl md:text-3xl font-heading font-medium text-dark">
+            <h2 className="text-2xl md:text-3xl font-heading font-medium text-[#803813]">
               Why Work With Me?
             </h2>
             <p className="font-body text-base italic text-dark/70 mt-2 max-w-md mx-auto">
@@ -540,10 +540,10 @@ function HomepageContent() {
       <section className="bg-white-pure py-20 md:py-28 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <span className="font-sans text-xs uppercase tracking-widest text-nude font-bold block mb-3">
+            <span className="font-sans text-xs uppercase tracking-widest text-[#803813] font-bold block mb-3">
               Offerings
             </span>
-            <h2 className="text-3xl md:text-5xl font-heading font-medium text-dark mb-4">
+            <h2 className="text-3xl md:text-5xl font-heading font-medium text-[#803813] mb-4">
               Healing Services
             </h2>
             <p className="font-body text-base italic text-dark/75">
@@ -570,10 +570,10 @@ function HomepageContent() {
                   </div>
                   {/* Service Info */}
                   <div className="p-6 md:p-8">
-                    <h3 className="font-heading text-xl md:text-2xl font-medium text-dark mb-1">
+                    <h3 className="font-heading text-xl md:text-2xl font-medium text-[#803813] mb-1">
                       {svc.title}
                     </h3>
-                    <p className="font-sans text-xs uppercase tracking-widest text-nude font-semibold mb-4">
+                    <p className="font-sans text-xs uppercase tracking-widest text-[#803813] font-semibold mb-4">
                       {svc.subtitle}
                     </p>
                     <p className="font-body text-sm sm:text-base text-dark/85 leading-relaxed mb-6">
@@ -589,7 +589,7 @@ function HomepageContent() {
                 <div className="p-6 md:p-8 pt-0 flex gap-4">
                   <Link
                     href={svc.href}
-                    className="inline-flex items-center gap-1.5 font-sans text-xs sm:text-sm uppercase tracking-wider font-semibold text-nude hover:text-dark transition-colors duration-300 cursor-pointer"
+                    className="inline-flex items-center gap-1.5 font-sans text-xs sm:text-sm uppercase tracking-wider font-semibold text-[#803813] hover:text-dark transition-colors duration-300 cursor-pointer"
                   >
                     Learn More
                     <ChevronRight className="w-3.5 h-3.5" />
@@ -605,10 +605,10 @@ function HomepageContent() {
       <section className="bg-cream/35 py-20 md:py-28 px-6 border-t border-nude/10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <span className="font-sans text-xs uppercase tracking-widest text-nude font-bold block mb-3">
+            <span className="font-sans text-xs uppercase tracking-widest text-[#803813] font-bold block mb-3">
               Shared Journeys
             </span>
-            <h2 className="text-3xl md:text-5xl font-heading font-medium text-dark mb-4">
+            <h2 className="text-3xl md:text-5xl font-heading font-medium text-[#803813] mb-4">
               Client Testimonials
             </h2>
             <p className="font-body text-base italic text-dark/75">
@@ -646,7 +646,7 @@ function HomepageContent() {
                   <span className="font-sans text-xs sm:text-sm uppercase tracking-wider font-bold text-dark">
                     {t.author}
                   </span>
-                  <span className="font-sans text-[11px] text-nude uppercase tracking-wider font-semibold">
+                  <span className="font-sans text-[11px] text-[#803813] uppercase tracking-wider font-semibold">
                     {t.location}
                   </span>
                 </div>
@@ -656,7 +656,7 @@ function HomepageContent() {
 
           {/* Final Call to Action Block */}
           <div className="mt-16 sm:mt-20 text-center bg-white-pure border border-nude/20 rounded-3xl p-6 sm:p-8 md:p-12 shadow-sm max-w-3xl mx-auto">
-            <h3 className="font-heading text-2xl md:text-4xl font-medium text-dark mb-4">
+            <h3 className="font-heading text-2xl md:text-4xl font-medium text-[#803813] mb-4">
               Are you ready to transform?
             </h3>
             <p className="font-body text-base text-dark/80 max-w-xl mx-auto mb-8 leading-relaxed">

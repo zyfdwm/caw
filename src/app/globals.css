@@ -5,6 +5,7 @@
   --color-nude: #d4b093;
   --color-button: #d4b093;
   --color-accent: #803813;
+  --color-heading: #803813;
   --color-dark: #3D2B1F;
   --color-white-pure: #FFFFFF;
 
@@ -27,6 +28,7 @@
   h5,
   h6 {
     font-family: var(--font-heading);
+    color: var(--color-heading);
   }
 
   button,

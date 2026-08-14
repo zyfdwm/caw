@@ -138,10 +138,10 @@ export default function LeadFormModal() {
           <div>
             {/* Header */}
             <div className="mb-6">
-              <span className="font-sans text-xs uppercase tracking-widest text-nude font-bold block mb-1">
+              <span className="font-sans text-xs uppercase tracking-widest text-[#803813] font-bold block mb-1">
                 Booking Enquiry
               </span>
-              <h3 className="text-2xl md:text-3xl font-heading font-light text-dark leading-tight">
+              <h3 className="text-2xl md:text-3xl font-heading font-light text-[#803813] leading-tight">
                 Begin Your Journey
               </h3>
               <p className="font-body text-sm text-dark/70 mt-2">
