@@ -58,8 +58,8 @@ export default function Navbar() {
       label: "Events",
       dropdown: [
         { label: "Family Constellation", href: "/event/family-constellation" },
-        { label: "Sound Bath", href: "/event/sound-bath" },
-        { label: "Qigong", href: "/event/qigong" },
+        { label: "Sound Bath", href: "https://www.trova.asia/floatingsb" },
+        { label: "Qigong", href: "https://www.trova.asia/qigong" },
         { label: "Breath Work", href: "/event/breath-work" },
       ],
     },
