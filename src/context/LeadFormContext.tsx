@@ -1,6 +1,6 @@
 "use client";
 
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useState, useCallback } from "react";
 
 interface LeadFormContextType {
   isOpen: boolean;
@@ -15,17 +15,17 @@ export function LeadFormProvider({ children }: { children: React.ReactNode }) {
   const [isOpen, setIsOpen] = useState(false);
   const [preselectedService, setPreselectedService] = useState("");
 
-  const openForm = (service?: string) => {
+  const openForm = useCallback((service?: string) => {
     if (service) {
       setPreselectedService(service);
     }
     setIsOpen(true);
-  };
+  }, []);
 
-  const closeForm = () => {
+  const closeForm = useCallback(() => {
     setIsOpen(false);
     setPreselectedService("");
-  };
+  }, []);
 
   return (
     <LeadFormContext.Provider value={{ isOpen, openForm, closeForm, preselectedService }}>

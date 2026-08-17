@@ -31,6 +31,9 @@ function HomepageContent() {
     if (searchParams.get("openForm") === "true") {
       const service = searchParams.get("service") || "";
       openForm(service);
+      if (typeof window !== "undefined") {
+        window.history.replaceState(null, "", window.location.pathname);
+      }
     }
   }, [searchParams, openForm]);
 
