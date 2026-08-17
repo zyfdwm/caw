@@ -37,10 +37,11 @@ export default function Footer() {
             
             <div className="mt-8 flex gap-4">
               <a 
-                href="https://instagram.com" 
+                href="https://www.instagram.com/chariea_aviyawellness/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-10 h-10 rounded-full border border-nude/30 flex items-center justify-center text-dark/70 hover:text-white-pure hover:bg-nude hover:border-nude transition-all duration-300 cursor-pointer"
+                aria-label="Instagram"
               >
                 <svg className="w-4 h-4 fill-none stroke-current" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
@@ -49,10 +50,11 @@ export default function Footer() {
                 </svg>
               </a>
               <a 
-                href="https://facebook.com" 
+                href="https://web.facebook.com/vibrantwellnessstudio?_rdc=1&_rdr#" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="w-10 h-10 rounded-full border border-nude/30 flex items-center justify-center text-dark/70 hover:text-white-pure hover:bg-nude hover:border-nude transition-all duration-300 cursor-pointer"
+                aria-label="Facebook"
               >
                 <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/>
@@ -61,6 +63,7 @@ export default function Footer() {
               <a 
                 href="mailto:info@charieaaviyawellness.id" 
                 className="w-10 h-10 rounded-full border border-nude/30 flex items-center justify-center text-dark/70 hover:text-white-pure hover:bg-nude hover:border-nude transition-all duration-300 cursor-pointer"
+                aria-label="Email"
               >
                 <Mail className="w-4 h-4" />
               </a>
