@@ -117,7 +117,7 @@ function HomepageContent() {
       desc: "Experience deep relaxation and energetic frequency realignment. Combining therapeutic sound bath meditations, training courses, and personalized vibrational work.",
       format: "Private (Bali) & Group Events (Perth & Bali)",
       image: "/service-sound.png",
-      href: "/sound-healing/private"
+      href: "https://charieaaviyawellness.id/sb-training"
     },
     {
       title: "Retreat & Workshops",
@@ -125,7 +125,7 @@ function HomepageContent() {
       desc: "Escape your daily environment to deep dive into restoration and healing. Join our hosted retreats and intensive weekend workshops in Perth, Bali, and Bandung.",
       format: "Perth, Bali & Bandung (Check Events Calendar)",
       image: "/service-retreat.png",
-      href: "/retreat-workshop"
+      href: "https://charieaaviyawellness.id/retreat"
     }
   ];
 

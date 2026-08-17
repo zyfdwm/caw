@@ -104,7 +104,7 @@ export default function Footer() {
               Explore Services
             </h4>
             <div className="flex flex-col gap-3 font-sans text-xs uppercase tracking-wider font-semibold text-dark/70">
-              <Link href="/sound-healing/private" className="hover:text-nude flex items-center gap-1 group">
+              <Link href="https://charieaaviyawellness.id/sb-training" className="hover:text-nude flex items-center gap-1 group">
                 Sound Healing 1:1 <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
               </Link>
               <Link href="/family-constellation/private" className="hover:text-nude flex items-center gap-1 group">
@@ -113,7 +113,7 @@ export default function Footer() {
               <Link href="/12-week-program" className="hover:text-nude flex items-center gap-1 group">
                 12-Week Program <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
               </Link>
-              <Link href="/retreat-workshop" className="hover:text-nude flex items-center gap-1 group">
+              <Link href="https://charieaaviyawellness.id/retreat" className="hover:text-nude flex items-center gap-1 group">
                 Retreats & Workshops <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
               </Link>
               <button 

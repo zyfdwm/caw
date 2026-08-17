@@ -35,7 +35,7 @@ export default function Navbar() {
     {
       label: "Sound Healing",
       dropdown: [
-        { label: "Private (One on One)", href: "/sound-healing/private" },
+        { label: "Private (One on One)", href: "https://charieaaviyawellness.id/sb-training" },
         { label: "Group (Event)", href: "/sound-healing/group" },
       ],
     },
@@ -52,7 +52,7 @@ export default function Navbar() {
     },
     {
       label: "Retreat & Workshop",
-      href: "/retreat-workshop",
+      href: "https://charieaaviyawellness.id/retreat",
     },
     {
       label: "Events",
